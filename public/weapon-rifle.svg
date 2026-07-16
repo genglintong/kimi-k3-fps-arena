@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <g transform="rotate(-3 240 170)">
+    <!-- 枪托 -->
+    <path d="M62 122q-12 4-10 20l6 40q2 14 18 14h30q10 0 12-10l6-54q1-12-12-12z" fill="#1FA85A" stroke="#14122E" stroke-width="8"/>
+    <!-- 提把/瞄具 -->
+    <path d="M168 108v-14q0-10 10-10h52q10 0 10 10v14h-20v-8h-32v8z" fill="#1FA85A" stroke="#14122E" stroke-width="7" stroke-linejoin="round"/>
+    <!-- 枪身主体 -->
+    <rect x="108" y="108" width="226" height="62" rx="22" fill="#3ED97E" stroke="#14122E" stroke-width="8"/>
+    <!-- 枪管 + 枪口 -->
+    <rect x="328" y="124" width="66" height="30" rx="13" fill="#1FA85A" stroke="#14122E" stroke-width="8"/>
+    <rect x="388" y="118" width="24" height="42" rx="10" fill="#14122E"/>
+    <!-- 夸张大弹匣 -->
+    <rect x="188" y="164" width="54" height="92" rx="14" fill="#1FA85A" stroke="#14122E" stroke-width="8" transform="rotate(6 215 170)"/>
+    <rect x="196" y="180" width="38" height="8" rx="4" fill="rgba(20,18,46,0.3)" transform="rotate(6 215 170)"/>
+    <rect x="196" y="198" width="38" height="8" rx="4" fill="rgba(20,18,46,0.3)" transform="rotate(6 215 170)"/>
+    <!-- 前握把 -->
+    <rect x="282" y="166" width="30" height="52" rx="12" fill="#1FA85A" stroke="#14122E" stroke-width="7"/>
+    <!-- 扳机 -->
+    <rect x="160" y="168" width="44" height="36" rx="16" fill="none" stroke="#14122E" stroke-width="7"/>
+    <rect x="176" y="172" width="10" height="24" rx="5" fill="#14122E"/>
+    <!-- 高光 + 星星 -->
+    <rect x="122" y="118" width="120" height="11" rx="5.5" fill="rgba(255,255,255,0.45)"/>
+    <path d="M262 126l5 11 12 1-9 8 3 12-11-6-10 6 3-12-9-8 12-1z" fill="#FFFFFF" stroke="#14122E" stroke-width="3.5" stroke-linejoin="round"/>
+  </g>
+</svg>

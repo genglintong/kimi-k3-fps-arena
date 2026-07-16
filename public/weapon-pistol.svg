@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <g transform="rotate(-4 240 170)">
+    <!-- 握把 -->
+    <rect x="118" y="158" width="56" height="96" rx="18" fill="#FFFFFF" stroke="#14122E" stroke-width="8" transform="rotate(14 146 168)"/>
+    <!-- 扳机护圈 + 扳机 -->
+    <rect x="192" y="166" width="58" height="46" rx="20" fill="none" stroke="#14122E" stroke-width="7"/>
+    <rect x="214" y="170" width="11" height="28" rx="5.5" fill="#14122E"/>
+    <!-- 枪身主体 -->
+    <rect x="98" y="106" width="224" height="66" rx="26" fill="#3EA6FF" stroke="#14122E" stroke-width="8"/>
+    <!-- 枪口 -->
+    <rect x="312" y="116" width="38" height="46" rx="14" fill="#1B6FD1" stroke="#14122E" stroke-width="8"/>
+    <!-- 顶部水罐 -->
+    <rect x="150" y="78" width="94" height="36" rx="16" fill="#FFFFFF" stroke="#14122E" stroke-width="8"/>
+    <circle cx="244" cy="96" r="10" fill="#3EA6FF" stroke="#14122E" stroke-width="6"/>
+    <!-- 高光 -->
+    <rect x="116" y="118" width="118" height="12" rx="6" fill="rgba(255,255,255,0.5)"/>
+    <!-- 白色星星贴纸 -->
+    <path d="M282 128l6 13 14 1-10 10 3 14-13-7-12 7 3-14-11-10 15-1z" fill="#FFFFFF" stroke="#14122E" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+</svg>

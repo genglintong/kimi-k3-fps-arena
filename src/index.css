@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 235 46% 16%;
+    --foreground: 0 0% 100%;
+    --card: 233 42% 22%;
+    --card-foreground: 0 0% 100%;
+    --popover: 233 42% 22%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 43 100% 60%;
+    --primary-foreground: 242 43% 13%;
+    --secondary: 236 44% 30%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 236 44% 30%;
+    --muted-foreground: 234 44% 78%;
+    --accent: 236 44% 30%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 359 100% 69%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 238 38% 37%;
+    --input: 238 38% 37%;
+    --ring: 43 100% 60%;
+    --radius: 0.625rem;
+    --sidebar-background: 235 46% 16%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 43 100% 60%;
+    --sidebar-primary-foreground: 242 43% 13%;
+    --sidebar-accent: 236 44% 30%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 238 38% 37%;
+    --sidebar-ring: 43 100% 60%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-bg-deep text-txt font-sans antialiased;
+    background-image: radial-gradient(1200px 800px at 70% 20%, #2B2F6B 0%, #15173D 60%);
+    background-attachment: fixed;
+    min-height: 100dvh;
+  }
+
+  ::selection {
+    background: #FFC831;
+    color: #14122E;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #15173D;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3A3F85;
+    border-radius: 999px;
+    border: 2px solid #15173D;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4A50A0;
+  }
+}
+
+@layer utilities {
+  /* 描边大字（Logo / 播报）design.md §5.3 */
+  .text-stroke-ink {
+    -webkit-text-stroke: 2px #14122E;
+    paint-order: stroke fill;
+    text-shadow: 0 4px 0 #14122E, 0 8px 24px rgba(0, 0, 0, 0.35);
+  }
+  .text-stroke-ink-lg {
+    -webkit-text-stroke: 3px #14122E;
+    paint-order: stroke fill;
+    text-shadow: 0 6px 0 #14122E, 0 12px 32px rgba(0, 0, 0, 0.4);
+  }
+  .text-stroke-none {
+    -webkit-text-stroke: 0;
+    text-shadow: none;
+  }
+
+  /* 深色面板内顶部高光 design.md §6 */
+  .panel-highlight {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 12px 32px rgba(8, 6, 40, 0.45);
+  }
+
+  /* 全局涂鸦背景层 */
+  .bg-doodle {
+    background-image: url('/noise-doodle.svg');
+    background-size: 480px;
+  }
+
+  /* 音量滑杆（设置抽屉） */
+  .arena-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 12px;
+    border-radius: 999px;
+    background: #15173D;
+    border: 1px solid #3A3F85;
+    outline: none;
+    cursor: pointer;
+  }
+  .arena-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 999px;
+    background: #FFC831;
+    border: 3px solid #14122E;
+    box-shadow: 0 2px 0 #14122E;
+    cursor: grab;
+  }
+  .arena-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    border-radius: 999px;
+    background: #FFC831;
+    border: 3px solid #14122E;
+    box-shadow: 0 2px 0 #14122E;
+    cursor: grab;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-cta-breathe,
+  .animate-key-press,
+  .animate-dot-blink {
+    animation: none !important;
+  }
+}

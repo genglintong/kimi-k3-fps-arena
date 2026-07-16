@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+<style>
+@font-face{font-family:'KuaileSub';src:url(data:font/woff2;base64,d09GMgABAAAAAAT0AA0AAAAACGQAAASiAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAHEQGYABsEQgKhySGGAE2AiQDKgsaAAQgBYNeByAMBxvYBlGUL04R4iOh3HRsQZKkEUJwxdsMZNMukOpcjEB1b6JSou9ve78glMCCOGmSgBKMsgADC8LYn//PvdN/7fsM5FGKCY2xXm0Noz2NAh0T26ClkXQ+MPecG6A5azhqIKgedXc3CEDNUzgyFZYLUKIAfBYcvydqBCWAgAJQQg5yjRrtJmUiGXBX0wAoa6uQHbGJQ5O4AZ+0BkC3FeThoB3lxXc0jQT+NhNAAOBwP8AbAXAAHmCPRyBCTca2rI364OxYUxsPbLG6Y5ve94uYvEwmoOjBVLPyxLzBM7UTZg0LIkq8QQgTZACvFcL8XsAZYAd4BuQD2APcN9SAw+NRJUpK3uJs7eaktLNTUIU1daSUWlDa7kOiJDUVWxBBECW1KIlSIyZIGZrwzlqJNRQlnUAHmcTaSMQMEhPAmMCyvXBjiQWHWBlFtNnJQuZsrhkm9PDkFqxhSDlTI+qFu0GSmFBnrNTlNakRykdhQdvEXJsutdAzjXPTejXFSIvUpBX6iN4S6zmm4HmqUUMpTmwmMKFxriQIxdGn8zNJVpMKlt0YTURJbMB6nhExaiWlJgVMcDeTu8vzL7Yr0UtsGiC76p5TmN5iFhmInTeK0ofMynNhl8bcclIZ9f72bE+/K3iv3nMnbp2da/PIAMZmBQqTc+zTmqqUxuYqy0dGueX95iqVEY2m7rBu3qD+tYPS8MWpyWZbj/LtV/bPTys+sGDKmsL0yWt6N08v7N2876Rkb7VxgEXVequ2almfuSF19VGWQR0XOJobutqor7DQkNreGcr1nWW0vpWMtjRS2iWPo0asWflkYmzV7wV3DmUWVAZlFpzZxvVs1T43e7ZCNHLKyQVHNN696iSlsn6MOTe2nuMGMqXKMKB5qNOUTaVO9s4Pey71sdN3cLDo8tTKNp46WZUb7JzaT0WpWWgjNl5nJ82aEt0yv1t64ZkNmUW3+2YT38KMZ/w3Pjcb0bZNOvOvTvOoj4GV+t2ceU1Hytd/Vr2RPN0qY8w2zDrOez1TJn+mdY/c1AYLr0mKXhtJxUqXDZ5WhjHOofUX3x9Y/8DNXX714Y7djUdQvitWvGplnkNaW8nqHHuEhHbvEYxTux0O1W/o3b7T7+ERguuMWRu2youPj7JabPfd50TE8mTt8+YlJs8F5OTHJSoWQfHFaQw3HQGj6wqRuF/i6wqXwplIvuk9X8K7ggA4ueOyCssGVunflDz/EoArp6sWAJ49D7aYTplaUkd+EkCOAwAEXvIwnR2wzRzYK7WqpkH7bqaoinAoUFad6hHPnKrH6u8iYbT45IMAzE1hI5AMgfU8AlDQKS29CsBuQCKc7SaOpcvES/eQqOC4k4xr8l+XC0w98nTQUS+dtdJCS115ixUtRjK4BSOa1erkqVKlHBvLdNNIK+Wd7upg7qA1epuwO8eBu2pp5s66sDd42HNdddRFqihRWmjF67ppLFITHbTruLSDDlpoq5nmOmivqy6i9AZ3B85FaDM52i4XsqxLajXTQjdtNdJZrEjRW6pPo6NVIE9xQO8xJyJ8yI33c82Imm3Y22rpU97TjmOqKE9MmeaKVbkzpmEvHQcAAAA=) format('woff2');font-weight:400;font-style:normal;}
+@font-face{font-family:'BungeeSub';src:url(data:font/woff2;base64,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) format('woff2');font-weight:400;font-style:normal;}
+</style>
+<defs>
+  <linearGradient id="yelGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFD65C"/>
+    <stop offset="0.55" stop-color="#FFC831"/>
+    <stop offset="1" stop-color="#F5B400"/>
+  </linearGradient>
+</defs>
+<g transform="rotate(-3 600 300)">
+  <!-- 装饰：左上准星 -->
+  <g stroke="#FF5A5F" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.95">
+    <circle cx="168" cy="150" r="44"/>
+    <path d="M168 84v28M168 188v28M102 150h28M206 150h28"/>
+  </g>
+  <circle cx="168" cy="150" r="8" fill="#FF5A5F"/>
+  <!-- 装饰：星星 -->
+  <path d="M1010 96l11 30 32 3-24 21 7 32-26-17-27 17 7-32-24-21 32-3z" fill="#FFC831" stroke="#14122E" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M1072 176l7 19 21 2-16 14 5 21-17-11-18 11 5-21-16-14 21-2z" fill="#fff" stroke="#14122E" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M96 368l8 22 24 2-18 16 5 24-19-13-20 13 6-24-18-16 24-2z" fill="#3EA6FF" stroke="#14122E" stroke-width="6" stroke-linejoin="round"/>
+  <!-- 中文主标题：硬阴影 + 描边 + 黄渐变 -->
+  <text x="604" y="336" text-anchor="middle" font-family="KuaileSub, sans-serif" font-size="212" letter-spacing="6" fill="#14122E">枪火竞技场</text>
+  <text x="600" y="322" text-anchor="middle" font-family="KuaileSub, sans-serif" font-size="212" letter-spacing="6" fill="url(#yelGrad)" stroke="#14122E" stroke-width="13" paint-order="stroke" stroke-linejoin="round">枪火竞技场</text>
+  <!-- 英文副标 -->
+  <text x="604" y="466" text-anchor="middle" font-family="BungeeSub, sans-serif" font-size="86" letter-spacing="14" fill="#14122E">GUN ARENA</text>
+  <text x="600" y="458" text-anchor="middle" font-family="BungeeSub, sans-serif" font-size="86" letter-spacing="14" fill="#FFFFFF" stroke="#14122E" stroke-width="6" paint-order="stroke" stroke-linejoin="round">GUN ARENA</text>
+  <!-- 两侧速度线 -->
+  <g stroke="#3EA6FF" stroke-width="9" stroke-linecap="round" opacity="0.9">
+    <path d="M120 250h64M96 300h88M124 350h56"/>
+    <path d="M1016 250h64M1020 300h84M1020 350h56"/>
+  </g>
+</g>
+</svg>

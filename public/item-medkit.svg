@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <!-- 底部投影 -->
+  <ellipse cx="160" cy="282" rx="92" ry="17" fill="rgba(0,0,0,0.28)"/>
+  <!-- 提手 -->
+  <path d="M122 96v-14q0-22 22-22h32q22 0 22 22v14h-24v-10q0-8-8-8h-12q-8 0-8 8v10z" fill="#3ED97E" stroke="#14122E" stroke-width="8" stroke-linejoin="round"/>
+  <!-- 箱体 -->
+  <rect x="56" y="92" width="208" height="164" rx="26" fill="#FFFFFF" stroke="#14122E" stroke-width="9"/>
+  <!-- 绿色包边 -->
+  <rect x="56" y="140" width="208" height="22" fill="#3ED97E"/>
+  <path d="M56 140h208M56 162h208" stroke="#14122E" stroke-width="5"/>
+  <!-- 红色十字 -->
+  <g stroke="#14122E" stroke-width="7" stroke-linejoin="round">
+    <rect x="132" y="112" width="56" height="120" rx="10" fill="#FF5A5F"/>
+    <rect x="100" y="144" width="120" height="56" rx="10" fill="#FF5A5F"/>
+  </g>
+  <!-- 高光 -->
+  <path d="M82 128q4-18 24-22" stroke="rgba(62,217,126,0.9)" stroke-width="9" fill="none" stroke-linecap="round"/>
+</svg>

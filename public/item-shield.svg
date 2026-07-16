@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7CC6FF"/>
+      <stop offset="1" stop-color="#3EA6FF"/>
+    </linearGradient>
+  </defs>
+  <!-- 底部投影 -->
+  <ellipse cx="160" cy="284" rx="80" ry="15" fill="rgba(0,0,0,0.28)"/>
+  <!-- 能量光晕 -->
+  <polygon points="160,26 274,92 274,224 160,290 46,224 46,92" fill="#3EA6FF" opacity="0.18"/>
+  <!-- 六边形盾牌 -->
+  <polygon points="160,40 262,99 262,217 160,276 58,217 58,99" fill="url(#shieldGrad)" stroke="#14122E" stroke-width="9" stroke-linejoin="round"/>
+  <!-- 内层能量线 -->
+  <polygon points="160,66 240,112 240,204 160,250 80,204 80,112" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="5" stroke-linejoin="round"/>
+  <!-- 中心白色星形高光 -->
+  <path d="M160 104l14 32 35 4-26 23 7 34-30-18-30 18 7-34-26-23 35-4z" fill="#FFFFFF" stroke="#14122E" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="160" cy="152" r="8" fill="#3EA6FF"/>
+  <!-- 顶部反光 -->
+  <path d="M96 104l64-36 30 16" stroke="rgba(255,255,255,0.7)" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

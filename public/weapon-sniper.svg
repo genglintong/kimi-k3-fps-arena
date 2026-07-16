@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <g transform="rotate(-3 240 170)">
+    <!-- 枪托 -->
+    <path d="M58 130q-12 4-10 20l6 36q2 14 18 14h30q10 0 12-10l6-50q1-12-12-12z" fill="#6E35CC" stroke="#14122E" stroke-width="8"/>
+    <!-- 机匣 -->
+    <rect x="112" y="114" width="150" height="58" rx="20" fill="#9B5CFF" stroke="#14122E" stroke-width="8"/>
+    <!-- 超长枪管 -->
+    <rect x="256" y="130" width="150" height="24" rx="12" fill="#6E35CC" stroke="#14122E" stroke-width="8"/>
+    <!-- 枪口制退器 -->
+    <rect x="398" y="122" width="30" height="40" rx="10" fill="#14122E"/>
+    <!-- 大圆瞄准镜 -->
+    <rect x="176" y="98" width="16" height="20" fill="#14122E"/>
+    <rect x="226" y="98" width="16" height="20" fill="#14122E"/>
+    <circle cx="210" cy="76" r="38" fill="#9B5CFF" stroke="#14122E" stroke-width="8"/>
+    <circle cx="210" cy="76" r="24" fill="#B184FF" stroke="#14122E" stroke-width="5"/>
+    <circle cx="202" cy="68" r="8" fill="#FFFFFF" opacity="0.85"/>
+    <!-- 弹匣 -->
+    <rect x="150" y="168" width="40" height="48" rx="10" fill="#6E35CC" stroke="#14122E" stroke-width="7"/>
+    <!-- 两脚架 -->
+    <path d="M348 154l-16 44M368 154l14 44" stroke="#14122E" stroke-width="8" stroke-linecap="round"/>
+    <!-- 扳机 -->
+    <rect x="126" y="170" width="38" height="32" rx="14" fill="none" stroke="#14122E" stroke-width="6"/>
+    <!-- 高光 -->
+    <rect x="124" y="122" width="80" height="10" rx="5" fill="rgba(255,255,255,0.4)"/>
+    <path d="M288 128l4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1z" fill="#FFFFFF" stroke="#14122E" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+</svg>

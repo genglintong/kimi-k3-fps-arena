@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480">
+  <defs>
+    <linearGradient id="goldCup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD65C"/>
+      <stop offset="0.55" stop-color="#FFC831"/>
+      <stop offset="1" stop-color="#F5B400"/>
+    </linearGradient>
+  </defs>
+  <!-- 投影 -->
+  <ellipse cx="240" cy="436" rx="130" ry="20" fill="rgba(0,0,0,0.28)"/>
+  <!-- 杯口冒出的三颗星星 -->
+  <path d="M240 38l12 27 30 3-22 20 6 29-26-15-26 15 6-29-22-20 30-3z" fill="#FFC831" stroke="#14122E" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M158 74l9 20 22 2-16 15 4 22-19-11-19 11 4-22-16-15 22-2z" fill="#3EA6FF" stroke="#14122E" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M322 74l9 20 22 2-16 15 4 22-19-11-19 11 4-22-16-15 22-2z" fill="#FF6FB5" stroke="#14122E" stroke-width="6" stroke-linejoin="round"/>
+  <!-- 双耳 -->
+  <path d="M128 170q-52 6-44 52q7 40 58 36" fill="none" stroke="#14122E" stroke-width="26" stroke-linecap="round"/>
+  <path d="M128 170q-52 6-44 52q7 40 58 36" fill="none" stroke="#F5B400" stroke-width="14" stroke-linecap="round"/>
+  <path d="M352 170q52 6 44 52q-7 40-58 36" fill="none" stroke="#14122E" stroke-width="26" stroke-linecap="round"/>
+  <path d="M352 170q52 6 44 52q-7 40-58 36" fill="none" stroke="#F5B400" stroke-width="14" stroke-linecap="round"/>
+  <!-- 胖胖杯身 -->
+  <path d="M128 148h224v22q0 96-64 118h-96q-64-22-64-118z" fill="url(#goldCup)" stroke="#14122E" stroke-width="9" stroke-linejoin="round"/>
+  <!-- 杯口 -->
+  <rect x="116" y="130" width="248" height="34" rx="17" fill="#FFD65C" stroke="#14122E" stroke-width="9"/>
+  <!-- 杯身高光 -->
+  <path d="M158 186q-2 56 30 82" stroke="rgba(255,255,255,0.55)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- 杯柄/颈 -->
+  <path d="M212 288h56l10 42h-76z" fill="#F5B400" stroke="#14122E" stroke-width="9" stroke-linejoin="round"/>
+  <!-- 底座（深棕） -->
+  <rect x="168" y="330" width="144" height="34" rx="12" fill="#8A5A3B" stroke="#14122E" stroke-width="9"/>
+  <rect x="146" y="364" width="188" height="48" rx="16" fill="#6B4226" stroke="#14122E" stroke-width="9"/>
+  <rect x="146" y="364" width="188" height="16" rx="8" fill="#8A5A3B"/>
+  <!-- 底座铭牌 -->
+  <rect x="206" y="374" width="68" height="26" rx="8" fill="#FFC831" stroke="#14122E" stroke-width="5"/>
+  <path d="M222 387h36" stroke="#14122E" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480">
+  <!-- 可平铺涂鸦纹理：稀疏白色小图案（准星/星星/子弹/闪电/爱心/圆点），页面层再压 6% 透明度 -->
+  <g fill="#FFFFFF" opacity="0.55">
+    <!-- 星星 -->
+    <path d="M96 52l5 12 13 1-10 9 3 13-11-7-11 7 3-13-10-9 13-1z"/>
+    <path d="M396 268l4 10 11 1-8 8 2 11-9-6-10 6 3-11-8-8 11-1z"/>
+    <path d="M196 396l4 10 11 1-8 8 2 11-9-6-10 6 3-11-8-8 11-1z"/>
+    <!-- 爱心 -->
+    <path d="M70 216q-12-14 2-24q9-6 16 2q7-8 16-2q14 10 2 24l-18 16z"/>
+    <path d="M380 96q-10-12 2-20q8-5 13 2q6-7 14-2q12 8 1 20l-15 13z"/>
+    <!-- 闪电 -->
+    <path d="M296 44l-16 24h10l-4 20 16-24h-10z"/>
+    <path d="M120 332l-14 21h9l-4 18 15-22h-9z"/>
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.55" stroke-linecap="round">
+    <!-- 准星 -->
+    <g>
+      <circle cx="200" cy="140" r="14"/>
+      <path d="M200 118v8M200 154v8M178 140h8M214 140h8"/>
+    </g>
+    <g>
+      <circle cx="420" cy="400" r="12"/>
+      <path d="M420 382v6M420 412v6M402 400h6M432 400h6"/>
+    </g>
+    <!-- 子弹形（胶囊 + 底火） -->
+    <g>
+      <rect x="312" y="176" width="34" height="14" rx="7"/>
+      <path d="M312 183h-8"/>
+    </g>
+    <g transform="rotate(30 80 420)">
+      <rect x="60" y="413" width="30" height="13" rx="6.5"/>
+      <path d="M60 419.5h-7"/>
+    </g>
+    <!-- 小三角 -->
+    <path d="M256 300l14 22h-28z"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.45">
+    <!-- 圆点群 -->
+    <circle cx="36" cy="120" r="3"/>
+    <circle cx="52" cy="108" r="2.2"/>
+    <circle cx="44" cy="132" r="1.8"/>
+    <circle cx="280" cy="380" r="3"/>
+    <circle cx="296" cy="368" r="2.2"/>
+    <circle cx="264" cy="392" r="1.8"/>
+    <circle cx="440" cy="180" r="2.6"/>
+    <circle cx="452" cy="196" r="1.8"/>
+    <circle cx="160" cy="270" r="2.4"/>
+    <circle cx="176" cy="282" r="1.7"/>
+  </g>
+</svg>

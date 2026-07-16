@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <g transform="rotate(-3 240 170)">
+    <!-- 木质枪托 -->
+    <path d="M56 128q-14 4-12 22l8 44q3 16 20 16h34q10 0 12-10l8-62q1-12-12-12z" fill="#C98A5B" stroke="#14122E" stroke-width="8"/>
+    <!-- 橙色机匣 -->
+    <rect x="112" y="106" width="96" height="84" rx="20" fill="#FF8A3D" stroke="#14122E" stroke-width="8"/>
+    <!-- 双枪管 -->
+    <rect x="196" y="112" width="172" height="28" rx="14" fill="#D9622B" stroke="#14122E" stroke-width="8"/>
+    <rect x="196" y="146" width="172" height="28" rx="14" fill="#D9622B" stroke="#14122E" stroke-width="8"/>
+    <!-- 管口 -->
+    <circle cx="368" cy="126" r="16" fill="#3D2C1E" stroke="#14122E" stroke-width="7"/>
+    <circle cx="368" cy="160" r="16" fill="#3D2C1E" stroke="#14122E" stroke-width="7"/>
+    <circle cx="368" cy="126" r="6" fill="#14122E"/>
+    <circle cx="368" cy="160" r="6" fill="#14122E"/>
+    <!-- 木质护木（泵动握把） -->
+    <rect x="222" y="168" width="64" height="34" rx="14" fill="#C98A5B" stroke="#14122E" stroke-width="8"/>
+    <!-- 高光 -->
+    <rect x="126" y="116" width="60" height="10" rx="5" fill="rgba(255,255,255,0.5)"/>
+    <rect x="206" y="118" width="100" height="8" rx="4" fill="rgba(255,255,255,0.35)"/>
+    <!-- 机匣上的两颗弹药装饰 -->
+    <rect x="132" y="140" width="12" height="30" rx="6" fill="#FF5A5F" stroke="#14122E" stroke-width="4"/>
+    <rect x="152" y="140" width="12" height="30" rx="6" fill="#FFC831" stroke="#14122E" stroke-width="4"/>
+  </g>
+</svg>
